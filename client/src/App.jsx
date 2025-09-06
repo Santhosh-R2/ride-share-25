@@ -75,42 +75,23 @@ function App() {
           <Route path="/admin-login" element={<AdminLogin />} />
           <Route path="/admin-all-drivers" element={<DriverRequests />} />
           <Route path="/admin-view-driver" element={<ViewDriver />} />
-          <Route path="/admin-view-riders" element={<ViewRider />} />
-          <Route path="/admin-dashboard" element={<AdminDashboard />} />
-          <Route path="/admin-driver-complaints" element={<ViewDriverComplaints />} />
-          <Route path="/admin-complaints" element={<ViewComplaints />} />
-          <Route path="/admin-ride-history" element={<RideHistory />} />
-          <Route path="/admin-feedback" element={<FeedBacks />} />
-          <Route path="/admin-ContactUs" element={<ContactUsAdmin />} />
+
 
           {/* Driver Routes */}
           <Route path="/driver-registration" element={<DriverRegistration />} />
           <Route path="/driver-login" element={<DriverLogin />} />
           <Route path="/driver-home-page" element={<DriverHomePage />} />
-          <Route path="/driver-profile" element={<DriverViewProfile />} />
-          <Route path="/driver-edit-profile" element={<DriverEditProfile />} />
           <Route path="/driver-forgot-pass" element={<DriverForgotPass />} />
           <Route path="/driver-Reset-Pass/:phoneNumber" element={<DriverResetPass />} />
-          <Route path="/driver-Add-Vehicle" element={<AddVehicle />} />
-          <Route path="/driver-Add-Ride" element={<AddRide />} />
-          <Route path="/driver-Add-complaints" element={<AddComplaints />} />
-          <Route path="/driver-View-Requets" element={<ViewRequest />} />
-          <Route path="/driver-View-history" element={<DriverRideHistory />} />
-          <Route path="/driver-View-PaymentHistory" element={<DriverPaymentHistory />} />
+        
 
           {/* Rider Routes */}
           <Route path="/User-registration" element={<RideRegistration />} />
           <Route path="/User-login" element={<RiderLogin />} />
           <Route path="/User-forgot-pass" element={<RiderForgotPass />} />
           <Route path="/User-Reset-Pass/:phoneNumber" element={<RiderResetPass />} />
-          <Route path="/User-payment" element={<RiderPayment />} />
           <Route path="/User-home-page" element={<RiderHomePage />} />
-          <Route path="/User-profile" element={<RiderViewProfile />} />
-          <Route path="/User-Edit-profile" element={<RiderEditProfile />} />
-          <Route path="/User-View-Ride" element={<ViewRide />} />
-          <Route path="/User-Complaints" element={<RiderComplaints />} />
-          <Route path="/User-ride-History" element={<RiderRideHistory />} />
-          <Route path="/User-review-ride" element={<RiderReview />} />
+          
         </Routes>
       </Router>
     </div>
